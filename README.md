@@ -36,3 +36,4 @@ root                    (project root folder)
 ## Authors
 ---
 * Carl Bialorucki <carl.bialorucki@byui.edu>
+* Karla Sommerfeldt <kryn5796@yahoo.ca>
