@@ -20,7 +20,7 @@ class Director:
         self.keep_playing = True
         self.guesser = Guesser()
         self.answer = ""
-        with open('jumper\dictionary.txt', 'r') as dictionaryFile:
+        with open('dictionary.txt', 'r') as dictionaryFile:
             listOfWords = dictionaryFile.readlines()
             self.answer = listOfWords[random.randint(0, len(listOfWords) - 1)].strip()
 
